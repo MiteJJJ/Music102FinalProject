@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrument Flashcards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .card {
+            width: 200px;
+            height: 200px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            position: relative;
+            background-color: #fff;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.3s ease;
+        }
+
+        .card .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .card:hover img {
+            opacity: 0.2;
+        }
+
+        .card:hover .content {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Instrument Flashcards</h1>
+    <div class="container">
+        <!-- 20 Instruments with YouTube Links -->
+        <a href="https://www.youtube.com/watch?v=LqoV4ZW7xTA" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Piano">
+            <div class="content"><h3>Piano</h3><p>From: Italy - A large keyboard instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=bD80SXJB5sw" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Guitar">
+            <div class="content"><h3>Guitar</h3><p>From: Spain - A six-stringed instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=iEBX_ouEw1I" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Violin">
+            <div class="content"><h3>Violin</h3><p>From: Italy - A bowed string instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=be1jJCH32OU" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Flute">
+            <div class="content"><h3>Flute</h3><p>From: Global - A woodwind instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=T0gl9LXq3LA" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Drums">
+            <div class="content"><h3>Drums</h3><p>From: Global - A percussion rhythm keeper.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=JsNm2bYl7PQ" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Trumpet">
+            <div class="content"><h3>Trumpet</h3><p>From: Ancient Egypt - A brass wind instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=BrmeOWbyOXw" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Saxophone">
+            <div class="content"><h3>Saxophone</h3><p>From: Belgium - Popular in jazz music.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=1prweT95Mo0" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Cello">
+            <div class="content"><h3>Cello</h3><p>From: Italy - A large bowed string instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=oPmKRtWta4E" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Harp">
+            <div class="content"><h3>Harp</h3><p>From: Ancient Mesopotamia - A triangular string instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=Ya4y4xJ6OxA" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Clarinet">
+            <div class="content"><h3>Clarinet</h3><p>From: Germany - A single-reed woodwind instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=vwjQhWUkS54" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Gayageum">
+            <div class="content"><h3>Gayageum</h3><p>From: Korea - A zither with silk strings.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=AJLR4-AUUw4" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Djembe">
+            <div class="content"><h3>Djembe</h3><p>From: West Africa - A hand drum.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=KKQB1Qky-Ms" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Angklung">
+            <div class="content"><h3>Angklung</h3><p>From: Indonesia - A bamboo percussion instrument.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=wg_Wh8pqZEI" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Erhu">
+            <div class="content"><h3>Erhu</h3><p>From: China - A two-stringed fiddle.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=kXXhp_bZvck" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Balafon">
+            <div class="content"><h3>Balafon</h3><p>From: Africa - A wooden xylophone.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=JtrthXXmKgA" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Pipa">
+            <div class="content"><h3>Pipa</h3><p>From: China - A plucked lute.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=WjdWVNRVO1I" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Kora">
+            <div class="content"><h3>Kora</h3><p>From: West Africa - A harp-lute.</p></div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=UEWCCSuHsuQ" class="card" target="_blank">
+            <img src="https://via.placeholder.com/200?text=Gamelan">
+            <div class="content"><h3>Gamelan</h3><p>From: Indonesia - Traditional ensemble percussion.</p></div>
+        </a>
+    </div>
+</body>
+</html>
